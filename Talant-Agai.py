@@ -17,3 +17,7 @@ def main():
                 print("Выход из программы 👋")
                 break
             letters, digits = count_letters_digits(user_input)
+            print("\n📊 Результат:")
+            print(f"Буквы: {letters}")
+            print(f"Цифры: {digits}")
+            print("-" * 30)
