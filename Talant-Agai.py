@@ -8,3 +8,5 @@ def count_letters_digits(text):
             digits += 1
     return letters, digits
 def main():
+    print("🔹 Программа подсчёта букв и цифр")
+    print("Введите 'стоп' для выхода\n")
