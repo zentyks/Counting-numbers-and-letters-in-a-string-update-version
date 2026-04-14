@@ -4,3 +4,5 @@ def count_letters_digits(text):
     for char in text:
         if char.isalpha():
             letters += 1
+        elif char.isdigit():
+            digits += 1
