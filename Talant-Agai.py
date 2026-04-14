@@ -16,3 +16,4 @@ def main():
             if user_input.lower() == "стоп":
                 print("Выход из программы 👋")
                 break
+            letters, digits = count_letters_digits(user_input)
