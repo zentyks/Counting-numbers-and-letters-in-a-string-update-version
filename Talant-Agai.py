@@ -10,3 +10,4 @@ def count_letters_digits(text):
 def main():
     print("🔹 Программа подсчёта букв и цифр")
     print("Введите 'стоп' для выхода\n")
+    while True:
