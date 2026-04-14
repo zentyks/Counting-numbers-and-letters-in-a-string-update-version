@@ -13,3 +13,6 @@ def main():
     while True:
         try:
             user_input = input("Введите строку: ").strip()
+            if user_input.lower() == "стоп":
+                print("Выход из программы 👋")
+                break
