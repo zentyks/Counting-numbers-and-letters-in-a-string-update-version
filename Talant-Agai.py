@@ -12,3 +12,4 @@ def main():
     print("Введите 'стоп' для выхода\n")
     while True:
         try:
+            user_input = input("Введите строку: ").strip()
