@@ -6,3 +6,4 @@ def count_letters_digits(text):
             letters += 1
         elif char.isdigit():
             digits += 1
+    return letters, digits
