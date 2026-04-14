@@ -21,3 +21,5 @@ def main():
             print(f"Буквы: {letters}")
             print(f"Цифры: {digits}")
             print("-" * 30)
+        except Exception as e:
+            print("Ошибка ввода! Попробуйте снова.")
